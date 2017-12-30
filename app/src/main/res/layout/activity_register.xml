@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clinicreggg"
+    tools:context="com.example.me.doctorsclinics.RegisterActivity">
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_design"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:id="@+id/editpersonalname"
+            android:hint =" Name......."
+            android:inputType="textPersonName"
+            android:textSize="22dp"
+            android:textColor="@android:color/black"
+            android:drawableLeft="@drawable/ic_person_add_black_24dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:id="@+id/passwordedit"
+            android:background="@drawable/edittext_design"
+            android:hint=" Password........"
+            android:textSize="22dp"
+            android:inputType="textPassword"
+            android:textColor="@android:color/black"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:id="@+id/matchpassword"
+            android:background="@drawable/edittext_design"
+            android:hint=" Confirm Password........"
+            android:textSize="22dp"
+            android:textColor="@android:color/black"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:id="@+id/editemail"
+            android:background="@drawable/edittext_design"
+            android:hint=" Email........"
+            android:textSize="22dp"
+            android:textColor="@android:color/black"
+            android:inputType="textEmailAddress"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:id="@+id/editphone"
+
+            android:background="@drawable/edittext_design"
+            android:hint=" Phone........"
+            android:textSize="22dp"
+            android:textColor="@android:color/black"
+            android:inputType="phone"
+            android:drawableLeft="@drawable/ic_phone_android_black_24dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="15dp"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:background="@drawable/edittext_design"
+            android:text="Register"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:id="@+id/btnRegister"
+
+
+            />
+    </LinearLayout>
+
+</RelativeLayout>
